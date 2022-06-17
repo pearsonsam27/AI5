@@ -1,0 +1,49 @@
+1.)
+python bnet.py Jt Af given Bt Ef
+Expected:
+probability: 0.0030000000
+
+2.)
+python bnet.py Bt Af given Mf
+Expected:
+probability: 0.0000600000
+
+3.)
+python bnet.py Af Et
+Expected:
+probability: 0.0014200000
+
+4.)
+python bnet.py Bt Af Mf Jt Et
+Expected:
+probability: 0.0000000050
+
+5.)
+python bnet.py Bt Et Af given Jt
+Expected:
+probability: 0.0000001000
+
+6.)
+python bnet.py Et At given Jt Bt
+Expected:
+probability: 0.0019000000
+
+7.)
+python bnet.py Et At given Jt
+Expected:
+probability: 0.0005800000
+
+8.)
+python bnet.py Et At Mt
+Expected:
+probability: 0.0004060000
+
+9.)
+python bnet.py Af
+Expected:
+probability: 0.9990000000
+
+10.)
+python bnet.py Af Et Bt Jt Mt
+Expected:
+probability: 0.0000000001
